@@ -14,13 +14,39 @@ hr {
     width: 90%;
     border: 1px solid #D8C858;
 }
+dt{
+    font-size: 18px;
+    padding: 5px;
+}
+select{
+    font-size: 14px;
+    padding: 3px;
 
+}
+dd span{
+    text-align: center;
+}
 h1, h2 {
     font-family: sans-serif;
     text-align: center;
 }
 
-input[type="submit"] {
-    font-size: 2em;
+.button_block{
     width: 100%;
+    text-align: center;
+}
+.button_block input{
+    margin: 10px;
+    width: 95%;
+    font-weight: bold;
+    background: none;
+    border:1px solid #424242;
+    color: #424242;
+    border-radius: 3px;
+    font-size: 14px;
+    padding: 5px;
+}
+.button_block input:hover{
+    color: #000;
+    border-color: #000;
 }
